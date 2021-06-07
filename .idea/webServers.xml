@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="baf722dd-9f3e-4205-99ef-85fe9665407b" name="moneyes dev nhc">
+        <fileTransfer rootFolder="/dev-nhc/moneyes" accessType="SFTP" host="access869520207.webspace-data.io" port="22" sshConfigId="d40a8d21-3400-4ec1-a849-4ad8ce014c0e" sshConfig="u104580163@access869520207.webspace-data.io:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
