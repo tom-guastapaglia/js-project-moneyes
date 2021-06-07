@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6547320-ff42-404e-ad0c-979b19fed8ac" name="Default Changelist" comment="" />
+    <list default="true" id="b6547320-ff42-404e-ad0c-979b19fed8ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jqueryUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jqueryUrl.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +13,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1t1rkCtvCVnCaGMltaniPf3r8U3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -50,6 +57,9 @@
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b6547320-ff42-404e-ad0c-979b19fed8ac" name="Default Changelist" comment="" />
@@ -62,7 +72,7 @@
       <workItem from="1622372129654" duration="7161000" />
       <workItem from="1622549708094" duration="9177000" />
       <workItem from="1622559671765" duration="148000" />
-      <workItem from="1623001277530" duration="7822000" />
+      <workItem from="1623001277530" duration="8303000" />
     </task>
     <servers />
   </component>
@@ -83,6 +93,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="304" y="99" key="#SSH_Configurations/0.0.1440.900/1440.-216.1360.768@0.0.1440.900" timestamp="1622358901893" />
+    <state x="427" y="306" width="713" height="294" key="Github.ShareDialog" timestamp="1623053061228">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="427" y="306" width="713" height="294" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1623053061228" />
+    <state x="457" y="73" key="Github.UntrackedFilesDialog" timestamp="1623053067748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="73" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1623053067748" />
     <state width="1440" height="259" key="GridCell.Tab.0.bottom" timestamp="1621971601839">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -132,5 +150,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1621953420285" />
+    <state x="493" y="131" width="456" height="638" key="svn.repositoryBrowser" timestamp="1623053043950">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="493" y="131" width="456" height="638" key="svn.repositoryBrowser/0.0.1440.900@0.0.1440.900" timestamp="1623053043950" />
   </component>
 </project>
