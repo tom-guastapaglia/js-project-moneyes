@@ -26,7 +26,7 @@ $(() => {
                     '        </div>\n' +
                     '    </form>\n' +
                     '</div>';
-                return HTMLForm
+                return HTMLForm;
             } //Display Login Form
             console.log(data);
             $('body').hide().html(loginformHTML()).fadeIn('slow');

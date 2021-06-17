@@ -33,19 +33,18 @@ session_start();
 
 	<meta name="theme-color" content="#fafafa">
 
-    <!-- ################ BOOSTRAP  ##################  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-	<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
-	<script src="../js/plugins.js"></script>
-	<script src="../js/jquery-3.6.0.min.js"></script>
-	<script src="../js/jqueryUrl.js"></script>
-	<script src="../js/connection.js"></script>
+    <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jqueryUrl.js"></script>
+    <script src="../js/connection.js"></script>
+
+    <!-- ################ BOOSTRAP  ##################  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body class="m-5">

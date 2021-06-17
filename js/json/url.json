@@ -1,0 +1,4 @@
+{
+  "APPLE"         :   "https://finnhub.io/api/v1/quote?symbol=AAPL&token=c1ksus237fktsl8cmv3g",
+  "MICROSOFT"     :   "https://finnhub.io/api/v1/quote?symbol=MSFT&token=c1ksus237fktsl8cmv3g"
+}
