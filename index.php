@@ -19,6 +19,7 @@ include  'php/menu.php'; //menu
         <div id="StockValue" class="col"></div>
         <div class="col">
             <form id="addStockForm" method="get">
+                <h3>Ajouter une nouvelle action</h3>
                 <label for="stockName">Nom de l'action</label>
                 <input type="text" id="stockName" name="stockName" required><br>
                 <label for="stockSymbol">Symbole de l'action</label>

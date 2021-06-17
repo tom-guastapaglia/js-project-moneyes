@@ -19,7 +19,6 @@ $(() => {
                 $('#ajax-loading').hide();
             }).fail(function (){
                 console.log("ERROR AJAX AFFICHAGE VALUE");
-                console.log(data);
             })
         });
 
@@ -49,6 +48,7 @@ $(() => {
                     $('#errorStock').html('');
                     $('#ajax-loading').hide();
                     $('#StockChooseDiv').append('<button value="'+ data.name +'" type="button" class="btn btn-primary priceButton">'+ data.name +'</button>');
+                    return false;
                 }
             }).fail(function (){
                 console.log("ERROR AJAX TEST URL NEW STOCK");
