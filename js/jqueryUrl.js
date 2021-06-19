@@ -1,7 +1,7 @@
 $(() => {
     $('#ajax-loading').hide();
-    $('.priceButton').on('click', function () {
-        let value      =   $(this).attr('value');
+    function onPriceClick(){
+        let value = $(this).attr('value');
         $('#ajax-loading').show();
         $.ajax({
             url: "/js/json/url.json",
@@ -21,8 +21,9 @@ $(() => {
                 console.log("ERROR AJAX AFFICHAGE VALUE");
             })
         });
-
-    });
+        return false;
+    }
+    $('.priceButton').on('click', onPriceClick);
     $('#addStockForm').on('submit', function (e){
         $('#ajax-loading').show();
         e.preventDefault();
@@ -48,10 +49,15 @@ $(() => {
                     $('#errorStock').html('');
                     $('#ajax-loading').hide();
                     $('#StockChooseDiv').append('<button value="'+ data.name +'" type="button" class="btn btn-primary priceButton">'+ data.name +'</button>');
+                    $('.priceButton').unbind('click');
+                    $('.priceButton').on('click', onPriceClick);
                     return false;
                 }
             }).fail(function (){
                 console.log("ERROR AJAX TEST URL NEW STOCK");
+                $('#errorStock').html('<p style="color: red">Erreur dans le symbole de l\'action !</p>').fadeIn('fast');
+                $('#ajax-loading').hide();
+                return false;
             })
         }).fail(function (){
             console.log('ERROR AJAX SUBMIT NEW STOCK');
